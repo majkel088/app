@@ -1,0 +1,83 @@
+body {
+    color: lightgrey;
+}
+
+#kon{
+    height: 500px;
+    position: relative;
+    bottom: 10px;
+}
+#window {
+    border: 2px solid lightgrey;
+}
+
+#window ul {
+    list-style: none;
+    position: absolute;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 5px;
+}
+
+#window ul li {
+    min-height: 19px;
+    width: 80%;
+    margin: 0;
+    padding: 1px;
+}
+
+#window ul span {
+    height: 100%;
+    margin: 0;
+    padding: 1px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+#window ul span.name {
+    color: #007bff;
+}
+#window ul span.name2 {
+    color: #205c32;
+}
+#czatspan{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+}
+#list {
+    border: 2px solid lightgrey;
+}
+#list h1{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    right: 0;
+}
+#list ul{
+    list-style: none;
+    position: absolute;
+    overflow: auto;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 5px;
+}
+#list ul span {
+    height: 100%;
+    margin: 0;
+    padding: 1px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+

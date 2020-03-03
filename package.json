@@ -1,0 +1,21 @@
+{
+  "name": "czat",
+  "version": "0.0.1",
+  "description": "cat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "async": "^1.5.2",
+    "express": "^4.13.4",
+    "ip": "^1.1.5",
+    "socket.io": "^1.4.5"
+  }
+}
